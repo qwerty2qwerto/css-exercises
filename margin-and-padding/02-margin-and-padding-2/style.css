@@ -9,6 +9,11 @@ body {
   margin: 16px auto;
 }
 
+.card {
+  border: 10px solid white;
+  padding: 15px;
+}
+
 .title {
   background: #e3f4ff;
 }
@@ -19,9 +24,17 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 100px;
+  padding: 0 10px;
+}
+
+div {
+  border: 5px solid white;
 }
